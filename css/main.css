@@ -1,0 +1,91 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #09203F, #537895);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1375px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 90px;
+}
+
+.nav {
+    display: flex;
+    gap: 42px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    color: #FFFFFF;
+    display: flex;
+    gap: 42px;
+    
+}
+
+.reg {
+    border: 1px solid #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 85px;
+}
+
+.main-text {
+    width: 600px;
+    color: #FFFFFF;
+    flex: 1;
+
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 111.5%;
+    margin-bottom: 28px;
+
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+.main-image {
+    flex: 1;
+}
+
+.learn-button {
+    font-size: 20px;
+    padding: 8px 15px;
+    background-color: #F57359;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
